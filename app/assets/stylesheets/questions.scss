@@ -1,0 +1,35 @@
+// Defining a variable
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  padding: 25px;
+}
+
+.ask-question {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.answer-coaching {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 15px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.banner {
+    background: red;
+    h1 {
+      font-size: 50px;
+    }
+}
+
+a {
+    color: grey;
+    &:hover {
+      color: black;
+    }
+}

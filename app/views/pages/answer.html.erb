@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+<!-- As a heading -->
+<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1">Stupid Coaching</span>
+</nav>
+
+<div class="answer-coaching">
+    <p><%= @question %></p>
+    <p>- You</p>
+</div>
+
+<div class="answer-coaching">
+    <p><%= @answer %></p>
+    <p>- Sweet Coach</p>
+</div>
+
+<%= link_to "New Question", ask_path %>
